@@ -1,0 +1,16 @@
+name: AI-Assignment-1
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - python=3.9
+  - numpy
+  - matplotlib
+  - pip
+  - pip:
+    - google-generativeai>=0.3.0
+    - dataclasses
+    - typing
+    - jupyter
+    - pandas
+    - ipykernel
